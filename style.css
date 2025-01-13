@@ -1,0 +1,171 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    width: 70px;
+  }
+  
+  .FirstNbarbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input {
+    width: 100%;
+    max-width: 300px;
+    height: 25px;
+    padding-left: 27px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  .icon-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .fa-magnifying-glass,
+  .fa-list {
+    position: absolute;
+    top: 6px;
+    color: rgb(30, 114, 160);
+  }
+  
+  .fa-list {
+    padding-left: 280px;
+  }
+  
+  .FirstNbarbarButton {
+    background-color: rgb(16, 120, 142);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid rgb(16, 120, 142);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .FirstNbarbarButton:hover {
+    background-color: rgb(13, 100, 118);
+    border-color: rgb(13, 100, 118);
+  }
+  
+  
+  .fullUllList {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  select {
+    padding: 10px;
+    width: 200px;
+    color: rgb(30, 114, 160);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  table {
+    text-align: center;
+    width: 95%;
+    margin: 20px auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-collapse: collapse;
+    color: rgb(22, 125, 154);
+    font-family: sans-serif;
+  }
+  
+  tr,
+  td {
+    padding: 10px;
+  }
+  
+  .firsttableRow {
+    background-color: rgb(22, 127, 146);
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .button-round {
+    border-radius: 50%;
+    border: 2px solid rgb(16, 120, 142);
+    background-color: rgb(16, 120, 142);
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .minus,
+  .plus {
+    background-color: rgb(18, 129, 144);
+    border: 2px solid rgb(18, 129, 144);
+    border-radius: 20px;
+    padding: 7px;
+    color: #fff;
+    margin: 0 8px;
+    cursor: pointer;
+  }
+  
+
+
+.lastdivnav {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
+.lastNavoption {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    padding: 5px 10px;
+    height: 30px;  
+    display: inline-flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.fa-copy{
+    position: absolute;
+    padding: 10px;
+    color: rgb(30, 114, 160);
+ }
+
+.fa-box{
+    position: absolute;
+    padding: 10px;
+    color: rgb(30, 114, 160);   
+}
+
+.fa-dollar-sign{
+    position: absolute;
+    padding: 10px;
+    color: rgb(30, 114, 160);   
+}
+.AllProductlist{
+    font-weight: bold;
+}
+
+.AllPricebold{
+    font-weight: bold;
+    padding-top: 20px;
+} 

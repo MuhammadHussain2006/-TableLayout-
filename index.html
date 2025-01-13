@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Table layout </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="FirstNbarbar">
+      <div class="icon-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-list"></i>
+        <input size="31" type="text" placeholder="Search Keyword" />
+      </div>
+
+      <div class="lastdivnav">
+        <div>
+          <button class="FirstNbarbarButton">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Add To Cart Product 0 Item
+          </button>
+        </div>
+        <div>
+          <label class="lastNavoption" for="selectAll">
+            SelectAll
+            <input type="checkbox" id="selectAll" />
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <ul class="fullUllList">
+        <li>
+          <i class="fa-solid fa-copy"></i>
+          <select>
+            <option value="category" selected>--Category--</option>
+            <option value="Shoes">Shoes</option>
+            <option value="Nike Shoes">Nike Shoes</option>
+            <option value="All Shoes">All Shoes</option>
+          </select>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-box"></i>
+          <select>
+            <option value="stock" selected>--Stock--</option>
+            <option value="full">full</option>
+            <option value="half">half</option>
+            <option value="all-iteam">all-iteam</option>
+          </select>
+        </li>
+
+        <li>
+          <i class="fa-solid fa-dollar-sign"></i>
+          <select>
+            <option value="--price--" selected>--Price--</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+          </select>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <table>
+        <tr class="firsttableRow">
+          <td>Check</td>
+          <td>Thumbnails</td>
+          <td>Product Title <i class="fa-solid fa-arrow-down"></i></td>
+          <td>Category <br /><i class="fa-solid fa-arrow-down"></i></td>
+          <td>Stock <br /><i class="fa-solid fa-arrow-down"></i></td>
+          <td>Price <i class="fa-solid fa-arrow-down"></i></td>
+          <td>Quantity</td>
+          <td>Action</td>
+          <td>Quick view</td>
+          <td>sku</td>
+          <td>Rating</td>
+          <td>Wishlist & compare</td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" checked /></td>
+          <td><img src="./images/feet-1840619_640.jpg" alt="img" /></td>
+          <td class="AllProductlist">Boots <br />BU1171</td>
+          <td>Boots</td>
+          <td>in <br />stock</td>
+          <td class="AllPricebold">$115.000</td>
+          <td>
+            <div class="topTdseven">
+              <span class="minus">-</span>0<span class="plus">+</span>
+            </div>
+          </td>
+          <td>
+            <div class="cart-action">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </td>
+          <td>
+            <div class="overview"><i class="fa-solid fa-eye"></i></div>
+          </td>
+          <td>112</td>
+          <td>5<i class="fa-solid fa-star"></i></td>
+          <td>
+            <div class="heart"><i class="fa-solid fa-heart"></i></div>
+            <div class="compare"><i class="fa-solid fa-right-left"></i></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" checked /></td>
+          <td>
+            <img src="./images/photo-1542291026-7eec264c27ff.jpeg" alt="img" />
+          </td>
+          <td class="AllProductlist">Boots <br />BU1171</td>
+          <td>Boots</td>
+          <td>in <br />stock</td>
+          <td class="AllPricebold">$115.000</td>
+          <td>
+            <div class="topTdseven">
+              <span class="minus">-</span>0<span class="plus">+</span>
+            </div>
+          </td>
+          <td>
+            <div class="cart-action">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </td>
+          <td>
+            <div class="overview"><i class="fa-solid fa-eye"></i></div>
+          </td>
+          <td>112</td>
+          <td>5<i class="fa-solid fa-star"></i></td>
+          <td>
+            <div class="heart"><i class="fa-solid fa-heart"></i></div>
+            <div class="compare"><i class="fa-solid fa-right-left"></i></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" checked /></td>
+          <td>
+            <img src="./images/photo-1543508282-6319a3e2621f.avif" alt="img" />
+          </td>
+          <td class="AllProductlist">Boots <br />BU1171</td>
+          <td>Boots</td>
+          <td>in <br />stock</td>
+          <td class="AllPricebold">$115.000</td>
+          <td>
+            <div class="topTdseven">
+              <span class="minus">-</span>0<span class="plus">+</span>
+            </div>
+          </td>
+          <td>
+            <div class="cart-action">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </td>
+          <td>
+            <div class="overview"><i class="fa-solid fa-eye"></i></div>
+          </td>
+          <td>112</td>
+          <td>5<i class="fa-solid fa-star"></i></td>
+          <td>
+            <div class="heart"><i class="fa-solid fa-heart"></i></div>
+            <div class="compare"><i class="fa-solid fa-right-left"></i></div>
+          </td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" checked /></td>
+          <td>
+            <img src="./images/photo-1549298916-b41d501d3772.avif" alt="img" />
+          </td>
+          <td class="AllProductlist">Boots <br />BU1171</td>
+          <td>Boots</td>
+          <td>in <br />stock</td>
+          <td class="AllPricebold">$115.000</td>
+          <td>
+            <div class="topTdseven">
+              <span class="minus">-</span>0<span class="plus">+</span>
+            </div>
+          </td>
+          <td>
+            <div class="cart-action">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </td>
+          <td>
+            <div class="overview"><i class="fa-solid fa-eye"></i></div>
+          </td>
+          <td>112</td>
+          <td>5<i class="fa-solid fa-star"></i></td>
+          <td>
+            <div class="heart"><i class="fa-solid fa-heart"></i></div>
+            <div class="compare"><i class="fa-solid fa-right-left"></i></div>
+          </td>
+        </tr>
+
+        <tr class="firsttableRow">
+          <td>Check</td>
+          <td>Thumbnails</td>
+          <td>Product Title <i class="fa-solid fa-arrow-down"></i></td>
+          <td>Category <br /><i class="fa-solid fa-arrow-down"></i></td>
+          <td>Stock <br /><i class="fa-solid fa-arrow-down"></i></td>
+          <td>Price <i class="fa-solid fa-arrow-down"></i></td>
+          <td>Quantity</td>
+          <td>Action</td>
+          <td>Quick view</td>
+          <td>sku</td>
+          <td>Rating</td>
+          <td>Wishlist & compare</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
